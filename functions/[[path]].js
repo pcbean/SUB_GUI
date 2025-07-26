@@ -763,10 +763,10 @@ async function handleMisubRequest(context) {
         // 使用陣列來保證比對的優先順序
         const uaMapping = [
             // 優先匹配 Mihomo/Meta 核心的客戶端
+            ['clash-verge', 'clash'],
             ['flyclash', 'clash'],
             ['mihomo', 'clash'],
             ['clash.meta', 'clash'],
-            ['clash-verge', 'clash'],
             ['meta', 'clash'],
             
             // 其他客戶端
